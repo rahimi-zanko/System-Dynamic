@@ -1,0 +1,7 @@
+streamlit
+Pillow
+matplotlib
+pandas
+numerize
+plotly
+streamlit-auth

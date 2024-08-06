@@ -130,7 +130,7 @@ fig.update_layout(
     yaxis_title="Rice Requirement (ton)",
 )
 #Set the tooltip size
-fig.update_traces(hoverlabel=dict(bgcolor='#e0dcdc',font_size=15))
+fig.update_traces(hoverlabel=dict(bgcolor='#e0dcdc',font_size=15,font_color='black'))
 
 # Display the plotly chart in Streamlit
 st.plotly_chart(fig, use_container_width=True)
